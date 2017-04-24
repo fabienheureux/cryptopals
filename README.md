@@ -1,2 +1,3 @@
 # cryptopals
-(ˆ(oo)ˆ)
+My attempts solving problems at https://www.cryptopals.com  
+Also my first lines of go...  
