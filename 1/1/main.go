@@ -1,12 +1,12 @@
 package main
 
 import (
-	"encoding/hex"
 	"encoding/base64"
+	"encoding/hex"
 	"fmt"
 )
 
-// Decodes an hex encoded string and returns an base64 encoded string 
+// Decodes an hex encoded string and returns an base64 encoded string
 func hexToBase64(str string) {
 	decoded, _ := hex.DecodeString(str)
 	encoded := base64.StdEncoding.EncodeToString(decoded)
